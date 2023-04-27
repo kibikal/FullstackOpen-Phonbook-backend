@@ -1,8 +1,7 @@
-POST http://localhost:3001/api/notes/
+POST http://localhost:3001/api/persons/
 Content-Type: application/json
 
 {
-    "id": 4,
-    "content": "hello",
-    "important":false
+    "name": "Jagri Jalula Maurice",
+    "number": "0553488612"
 }
